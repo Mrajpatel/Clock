@@ -59,10 +59,7 @@ namespace Clock
                     hour = 12;
                     timer +=  hour;
                 }
-                else
-                {
-                    timer += "0" + hour;
-                }
+                else timer += "0" + hour;
                 label1.Text = "AM";
             }
             else 
